@@ -1,4 +1,4 @@
-﻿# FixGraphicEQ (Kolin version)
+﻿# FixGraphicEQ (Kotlin version)
 ### This is a Kotlin remake of [my previous project](https://github.com/VictorPLopes/FixGraphicEQ). Both do the exact same thing and have the exact same features. To the user, there should be no difference between both. I made this in Kotlin to try the language, and translating an existing project seemed like a good way to start learning it, which is why I made this version.
 Recently, I was trying to use [HeSuVi](https://sourceforge.net/projects/hesuvi/) for the first time to add surround virtualization to my headset, and equalize it. Since my model wasn't on the [AutoEQ.app database](https://github.com/jaakkopasanen/AutoEq/tree/master/results), I had to do it myself. So I got a frequency response curve of my headset and tried to use it on [AutoEQ.app](https://autoeq.app), setting the target to a curve of my choice. The graphics looked fine on the website so I tried to export the equalizer settings to the Equalizer APO GraphicEq format to use on HeSuVi.
 <br><br>
