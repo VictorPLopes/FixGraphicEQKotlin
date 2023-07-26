@@ -1,4 +1,4 @@
-﻿# FixGraphicEQ
+﻿# FixGraphicEQ (Kolin version)
 ### This is a Kotlin remake of [my previous project](https://github.com/VictorPLopes/FixGraphicEQ). Both do the exact same thing and have the exact same features. To the user, there should be no difference between both. I made this in Kotlin to try the language, and translating an existing project seemed like a good way to start learning it, which is why I made this version.
 Recently, I was trying to use [HeSuVi](https://sourceforge.net/projects/hesuvi/) for the first time to add surround virtualization to my headset, and equalize it. Since my model wasn't on the [AutoEQ.app database](https://github.com/jaakkopasanen/AutoEq/tree/master/results), I had to do it myself. So I got a frequency response curve of my headset and tried to use it on [AutoEQ.app](https://autoeq.app), setting the target to a curve of my choice. The graphics looked fine on the website so I tried to export the equalizer settings to the Equalizer APO GraphicEq format to use on HeSuVi.
 <br><br>
@@ -11,7 +11,7 @@ Since I've been wanting to test Rider for a while, and make the switch from Visu
 ## How to use
 
 1. Download the latest release from the [releases page](https://github.com/VictorPLopes/FixGraphicEQ/releases).
-2. Run the executable.
+2. Run the executable (you need Java). If it doesn't run, with Java installed open a new terminal on the folder where you downloaded the jar and type `java -jar FixGraphicEQKotlin.jar`.
 3. Press ENTER and select the text file exported from AutoEQ.app in the Open File dialog.
 4. Type the offset you want to apply to the equalizer. I don't know if there's a very precise way to find it, but you have to manually see what the difference between the AutoEQ.app curve and the curve in HeSuVi is. For example, in my case, the curve was shifted down by 12.2 dB, so I typed `12.2` (to shift it up 12.2 dB) and pressed ENTER.
 5. The script will create a new file with the same name as the original file, but with `_offsetN` appended to it, where `N` is the offset you typed. For example, if you typed `12.2`, the new file will be named `your_file_offset12.2.txt`. It will be created in the same directory as the original file.
