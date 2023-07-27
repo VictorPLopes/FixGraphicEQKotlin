@@ -27,7 +27,7 @@ fun main() {
     val inputFileFolder: String = inputFileDialog.directory
     
     // Gets the offset value from the user
-    var offsetValue: Float? = null
+    var offsetValue: Float?
     do {
         println("\nPlease input a valid gain offset value to be applied to the file (e.g. 12.2): ")
         offsetValue = readln().toFloatOrNull()
