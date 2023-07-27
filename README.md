@@ -6,6 +6,7 @@ Recently, I was trying to use [HeSuVi](https://sourceforge.net/projects/hesuvi/)
 <br><br>
 Since I've been wanting to test Rider for a while, and make the switch from Visual Studio, I decided to quickly throw together a project to test it out and solve my problem at the same time. **Then I decided to translate it to Kotlin to learn more about the language, and this is the result.** The code is far from perfect, and I'm sure there are better ways to do it, but it works and it was just a quick project to test Rider. **Feel free to use it if you have the same problem as me** or improve it if you want to.
 
+![image](https://github.com/VictorPLopes/FixGraphicEQKotlin/assets/77900343/fae9ce77-01f3-481b-ac4d-236ae76837b6)
 
 ## How to use
 
